@@ -1,0 +1,8 @@
+alias l="ls -la"
+alias ld="ls -ld */"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias ranger='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`; cd "$LASTDIR"'
