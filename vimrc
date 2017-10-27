@@ -28,6 +28,7 @@ Plugin 'Lokaltog/vim-distinguished'
 Plugin 'tpope/vim-fugitive'
 Plugin 'alvan/vim-closetag'
 Plugin 'tpope/vim-repeat'
+Bundle 'Rykka/riv.vim'
 
 call vundle#end()
 
