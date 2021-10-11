@@ -29,6 +29,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'alvan/vim-closetag'
 Plugin 'tpope/vim-repeat'
 Bundle 'Rykka/riv.vim'
+Plugin 'reedes/vim-pencil'
 
 call vundle#end()
 
