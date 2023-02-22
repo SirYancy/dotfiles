@@ -1,37 +1,34 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#begin('~/.vim/bundle/')
+
+call plug#begin()
 
 " set rtp+=$HOME/.vim/bundle/Vundle.vim/
 " call vundle#begin('$HOME/vimfiles/bundle/')
+Plug 'mileszs/ack.vim'
+Plug 'mattn/emmet-vim'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'tpope/vim-surround'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'tomtom/tcomment_vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'dhruvasagar/vim-table-mode'
+Plug 'altercation/vim-colors-solarized'
+Plug 'sjl/badwolf'
+Plug 'reedes/vim-colors-pencil'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'Lokaltog/vim-distinguished'
+Plug 'tpope/vim-fugitive'
+Plug 'alvan/vim-closetag'
+Plug 'tpope/vim-repeat'
+Plug 'Rykka/riv.vim'
+Plug 'reedes/vim-pencil'
 
-Plugin 'gmarik/Vundle.vim'
-" Plugin 'Valloric/YouCompleteMe'
-Plugin 'mileszs/ack.vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'tpope/vim-surround'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'junegunn/goyo.vim'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'dhruvasagar/vim-table-mode'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'sjl/badwolf'
-Plugin 'reedes/vim-colors-pencil'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Lokaltog/vim-distinguished'
-Plugin 'tpope/vim-fugitive'
-Plugin 'alvan/vim-closetag'
-Plugin 'tpope/vim-repeat'
-Bundle 'Rykka/riv.vim'
-Plugin 'reedes/vim-pencil'
-
-call vundle#end()
+call plug#end()
 
 filetype plugin indent on
 
