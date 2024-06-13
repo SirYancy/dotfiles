@@ -32,4 +32,5 @@ done
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-
+echo "add to .bashrc:  [ -f ~/.bash_profile ] && . ~/.bash_profile"
+echo "In vim, run :PlugInstall"
